@@ -1,0 +1,2 @@
+*goal.txt* Writing good goals in md files 
+*goal* *vim-goal*
