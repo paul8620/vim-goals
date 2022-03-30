@@ -17,17 +17,17 @@ def Goal(goalname: string)
       line = getline(linenr)
       lineIsEmpty = line == ""
    endwhile
-   var goalNameHeader = "## " .. goalname
+   var goalNameHeader = "### " .. goalname
    append(linenr + 0, goalNameHeader)
-   append(linenr + 1, "### Reflection: Where I started last month, what's changed and what lessons whave you learned over the last 30 days?")
+   append(linenr + 1, "_Reflection: Where I started last month, what's changed and what lessons whave you learned over the last 30 days?_")
    append(linenr + 2, "_Write down what you wanted to do and what actually happened_")
-   append(linenr + 3, "### Intentions: What are your intentions and gos for the upcoming month?")
+   append(linenr + 3, "_Intentions: What are your intentions and gos for the upcoming month?_")
    append(linenr + 4, "_Write down what are your smart goals for the next month_")
-   append(linenr + 5, "### Measurement: How will you know that you've done this thing? What will be the clue, the evidence, the metric?")
+   append(linenr + 5, "_Measurement: How will you know that you've done this thing? What will be the clue, the evidence, the metric?_")
    append(linenr + 6, "_Add metrics to the goals_")
-   append(linenr + 7, "### Ways of being: while doing this i want to fell like ... The wai i want to show up for this is my actions will look like")
+   append(linenr + 7, "_Ways of being: while doing this i want to fell like ... The wai i want to show up for this is my actions will look like_")
    append(linenr + 8, "_Ad a way of feeling what you are doing eg. I want to enjoy this_")
-   append(linenr + 9,  "### Mantra: what's a simple mantra you can use to remember this goal")
+   append(linenr + 9,  "_Mantra: what's a simple mantra you can use to remember this goal")
    append(linenr + 10,  "_Write a simple text to remember what you are doing or how you are doing it eg. [mantra](https://www.happierhuman.com/daily-mantras/)_")
 enddef
 
